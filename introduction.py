@@ -15,3 +15,6 @@ my_array = my_array * 2
 
 # printing the array
 print(my_array)
+
+# printing the type of the array
+print(type(my_array))
