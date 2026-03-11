@@ -18,6 +18,8 @@ array_1d = np.array([1.4, 2.2, 3.7, 4.0, 5.])
 # print(np.round(array_1d, 0))
 # print(np.floor(array_1d))
 # print(np.ceil(array_1d))
+# print(np.pi)
+
 
 
 # Element-wise arithmetic
@@ -36,5 +38,9 @@ array_2 = np.array([5, 4, 3, 2, 1])
 # print(array_1 < array_2)
 # print(array_1 == array_2)
 # print(array_1 != array_2)
-array_1[array_1 > 4] = 0
-print(array_1)
+# array_1[array_1 > 4] = 0
+# print(array_1)
+
+# calculating area of a circle for each individual radius
+radii = np.array([3,5,4])
+print(np.pi * radii ** 2)
